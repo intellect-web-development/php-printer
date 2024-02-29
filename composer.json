@@ -1,0 +1,15 @@
+{
+    "name": "intellect-web-development/php-printer",
+    "description": "Library for print PHP files",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "IWD\\PhpPrinter\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.2",
+        "intellect-web-development/templator-symfony-bundle": "^1.0"
+    }
+ }
